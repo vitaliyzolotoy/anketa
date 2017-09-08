@@ -1,0 +1,34 @@
+.nav {
+  margin: 0 0 16px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item,
+.nav__link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.nav__item {
+  margin-right: 8px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  background: #fff;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #c9c9c9;
+}
+
+.nav__item--current .nav__link {
+  color: #5c5c5c;
+}
+
+.nav__item--valid .nav__link {
+  color: #ff9800 !important;
+}
